@@ -90,7 +90,7 @@ require 'specinfra/command/redhat/base/yumrepo'
 require 'specinfra/command/redhat/v5'
 require 'specinfra/command/redhat/v5/iptables'
 
-# RedHat V7 (inherit RedHat)
+# RedHat >= V7 (inherit RedHat)
 require 'specinfra/command/redhat/v7'
 require 'specinfra/command/redhat/v7/host'
 require 'specinfra/command/redhat/v7/service'
